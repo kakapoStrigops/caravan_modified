@@ -248,7 +248,7 @@ footer{
 
   .nav-list-item{
     width:100%;
-    margin:10px 0;
+    margin:0 0 10px 0;
     display:block;
   }
 
@@ -271,18 +271,20 @@ footer{
   }
   
   .blog-box,
-  .sideba-contents{
-    margin:0 auto;
+  .sidebar-contents{
+    padding-left:5%;
+    padding-right:5%;
   }
 
   
 
   .blog-image{
-    width: 45%;
+    width: 50%;
   }
 
   .blog-text{
-    width: 45%;
+    width: 50%;
+    padding-top:5px;
   }
 
 
@@ -299,7 +301,12 @@ footer{
   }
   
   .instagram-box{
-    width: 45%;
+    width: 48%;
+    padding-top:48%;
+  }
+  
+  .instagram-box:nth-child(odd){
+    margin-right:4%;
   }
 
 }
